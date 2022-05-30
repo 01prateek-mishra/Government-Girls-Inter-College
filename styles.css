@@ -2,6 +2,7 @@
 *{
 
     box-sizing: border-box;
+    font-family: "Poppins";
 }
 html{
     scroll-behavior: smooth;
@@ -120,4 +121,13 @@ body{
     
     padding-left:30px;
     padding-right:30px;
+}
+#home{
+
+    height: 100%;
+    margin-bottom: 60px;
+}
+.about{
+
+
 }
