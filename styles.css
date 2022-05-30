@@ -59,6 +59,10 @@ body{
 
         font-size: 33px !important;
     }
+    .col{
+
+        font-s
+    }
     .quote{
 
         font-size: 20px !important;
@@ -125,9 +129,19 @@ body{
 #home{
 
     height: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 70px;    
 }
-.about{
+.col-md{
 
+    text-align: center;
+}
+.img-thumbnail{
 
+    margin-right: 15px;
+    height: 200px;
+    float: left;
+}
+.message-heading{
+
+    font-size: 30px;
 }
