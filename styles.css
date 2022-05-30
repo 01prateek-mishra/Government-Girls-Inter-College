@@ -23,8 +23,9 @@ body{
 #intro{
 
     padding-top: 25px;
-    margin-left: 0px;
-    margin-right: 0px;
+    padding-bottom: 15px;
+    /* margin-left: 0px; */
+    /* margin-right: 0px; */
     /* padding: 30px 5px 10px 5px; */
     /* position: absolute;  */
     /* top: 40%; */
@@ -128,8 +129,8 @@ body{
 }
 #home{
 
-    height: 100%;
-    margin-bottom: 70px;    
+    height: 100vh;
+    /* margin-bottom: 70px;     */
 }
 .col-md{
 
@@ -144,4 +145,8 @@ body{
 .message-heading{
 
     font-size: 30px;
+}
+.container{
+
+    padding-top: 25px;
 }
