@@ -1,38 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>WE_NAARI</title>
+    <script
+      src="https://kit.fontawesome.com/57c20b0d98.js"
+      crossorigin="anonymous"
+    ></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
 
     <style>
 
-        .heading{
-
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
+        body{
+    background-color: whitesmoke;
+      margin: 0px;
+}
+/* class for company name and nav-bar */
+.row,.header{
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: center;
+    height: 200px;
+    position: relative;
     
-    <div class="container align-center mt-5">
+}
+/* class for company title */
+.company{
+    display: flex;
+    align-items: center;   
+    flex-wrap: nowrap;
 
-        <div class="row">
+    justify-content: center;
+    height: 100px;
+    width: 300px;
+   
+    text-align: center;
+    font-family: 'Sacramento',cursive;
+    color: rgb(0, 0, 0);
+}
 
-            <div class="col">
+h1{
+    
+    margin-top: 0px;
+    font-size:2em;
+}
+.nav-bar{
+    
+    position: absolute;
+    display: block;
+    top: 130px;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgb(252, 219, 230);
+}
+.nav-option{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 40px;
+    padding-top: 0px;
+}
+.nav-option a:hover{
+     color: rgb(202, 112, 28);
+}
+.nav-link{
+    font-family: 'HMSansLatin-Regular';
+    font-weight: bolder;
+    display: inline-block;
+    color:rgb(19, 239, 210);
+    text-decoration: none;
+    margin:0px auto;
+    height: 35px;
+    text-align: center;
+    
+}
+.nav-item{
+    display: inline-block;
+    margin: 0px 40px;
+    padding-top: 8px;
+}
 
-                <p class = "heading">1st col</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente facere ullam asperiores, harum, voluptatibus eius sequi officia id nostrum voluptas velit, vero dolorum? Aspernatur libero vero quas, labore culpa velit.</p>
-            </div>
-            <div class="col">
+.mid-section{
+    background: #DEE9E3;
+    height:fit-content;
+    margin-top: 0px;
+    position: relative;
+    
+}
+.trend{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size:xx-large;
+    text-align: center;
+    width:300px;
+    left: 0px;
+    right:0px;
+    font-family: 'Bodoni Moda',serif;
+}
+.head-2{
+    display: flex;
+    justify-content: center;
+    height:40px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
-                <p class = "heading">2nd col</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestiae ad libero voluptatibus fugiat quam voluptas vel, ab numquam deserunt quasi rem similique maiores sed nostrum exercitationem repellat, dolor reprehenderit!</p>
-            </div>
-        </div>
+/* dealing with images layout */
+.photo{
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.pics{
+    border-radius: 10%;
+    height:398px;
+    width:305px;
+
+}
+.pic-text{
+    font-family: 'Bodoni Moda',serif;
+    font-size:large;
+    text-decoration: none;
+    margin-top: 15px;
+}
+/* classes */
+
+/* footer firstBox */
+#footer{
+    margin: 50px 50px 0px 50px;
+    padding: 50px 10px 50px 5px;
+}
+
+.companyInfo , .addressInfo{
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+
+.marginRemove a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 0px;
+}
+
+
+/* app in footer */
+.secondBox{
+    text-align: center;
+    margin: 20px;
+}
+
+.app{
+    margin: 8px;
+}
+
+/* copyright */
+.copyright{
+    padding: 15px;
+    
+    background-color: rgb(240, 190, 206);
+    text-align: center;
+}
+
+/* hovering part */
+
+.companyInfo a:hover {
+    text-decoration: underline;
+    color: palevioletred;
+}
+
+.containgApp a i:hover{
+    color: palevioletred;
+}
+    </style>
+  </head>
+  <body>
+    <div class="row header"style="margin-left: 0px; margin-right :0px;" >
+      <div class="col company">
+        <h1>WE NARI.com</h1>
+      </div>
+      <div class="col nav-bar" style="height: 40px;">
+        <ul class="nav-option" type="none">
+          <li class="col-1 nav-item">
+            <a class="nav-link" href="">HOME</a>
+          </li>
+          <li class="col-1 nav-item">
+            <a class="nav-link" href="">PRODUCTS</a>
+          </li>
+          <li class="col-1 nav-item">
+            <a class="nav-link" href="">COMPANY</a>
+          </li>
+          <li class="col-1 nav-item">
+            <a class="nav-link" href="">BLOG</a>
+          </li>
+          <li class="col-1 nav-item">
+            <a class="nav-link" href="">SHOP</a>
+          </li>
+          <li class="col-1 nav-item">
+            <a class="nav-link" href="">STYLE</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</body>
+    <!-- for photo section -->
+    <div class="mid-section">
+      <div class="head-2">
+        <h2 class="trend">TRENDING NOW</h2>
+      </div>
+      <!-- for photo  -->
+      <div class="row photo" style="margin-left: 0px;margin-right: 0px;">
+        <div class="col photo col-lg-3 col-sm-6 ">
+          <img class="pics" src="https://saree.b-cdn.net/media/wysiwyg/Homepage/aprilhomepage/Organza.jpg" alt="">
+        <h3 class="pic-text">LATEST</h3>
+        </div>
+        <div class="col photo col-lg-3 col-sm-6">
+         <img class="pics" src="https://saree.b-cdn.net/media/wysiwyg/Homepage/aprilhomepage/sequinssaree.jpg" alt="">
+         <h3 class="pic-text">SEQUINS</h3>
+        </div>
+        <div class="col photo col-lg-3 col-sm-6">
+          <img class="pics" src="https://saree.b-cdn.net/media/wysiwyg/Homepage/aprilhomepage/readymade.jpg" alt="">
+          <h3 class="pic-text">READYMADE</h3>
+        </div>
+        <div class="col photo col-lg-3 col-sm-6">
+          <img class="pics" src="https://saree.b-cdn.net/media/wysiwyg/Homepage/aprilhomepage/latest.jpg" alt="">
+          <h3 class="pic-text">ORGANZA</h3>
+        </div>
+      </div>
+      <div class="row photo " style="margin-left: 0px;margin-right: 0px;">
+        <div class="col photo col-lg-3 col-sm-6">
+          <img class="pics" src="https://saree.b-cdn.net/media/wysiwyg/Homepage/aprilhomepage/latest.jpg" alt="">
+          <h3 class="pic-text">LATEST</h3>
+        </div>
+        <div class="col photo col-lg-3 col-sm-6">
+         <img class="pics" src="https://saree.b-cdn.net/media/wysiwyg/Homepage/aprilhomepage/latest.jpg" alt="">
+         <h3 class="pic-text">SEQUINS</h3>
+        </div>
+        <div class="col photo col-lg-3 col-sm-6">
+          <img class="pics" src="https://saree.b-cdn.net/media/wysiwyg/Homepage/aprilhomepage/latest.jpg" alt="">
+          <h3 class="pic-text">READYMADE</h3>
+        </div>
+        <div class="col photo col-lg-3 col-sm-6">
+          <img class="pics" src="https://saree.b-cdn.net/media/wysiwyg/Homepage/aprilhomepage/latest.jpg" alt="">
+          <h3 class="pic-text">ORGANZA</h3>
+        </div>
+      </div>
+    </div>
+    <!-- footer code -->
+    <div id="footer">
+      <div class="firstBox">
+        <div class="row">
+          <div class="col-md-2">
+            <h3>My Account</h3>
+
+            <ul class="companyInfo">
+              <li class="marginRemove">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Account</a
+                >
+              </li>
+              <li class="marginRemove">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Order Status</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h3>Help</h3>
+
+            <ul class="companyInfo">
+              <li class="marginRemove">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Privacy and Policy</a
+                >
+              </li>
+              <li class="marginRemove">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Shipping Policy</a
+                >
+              </li>
+              <li class="marginRemove">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Cancellation & Returns</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-3">
+            <h3>Company</h3>
+
+            <ul class="companyInfo">
+              <li class="marginRemove">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >About Us</a
+                >
+              </li>
+              <li class="marginRemove">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="marginRemove">
+                <a href="#" target="_blank" rel="noopener noreferrer"
+                  >Terms and Conditions</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+
+            <ul class="addressInfo">
+              <li class="marginRemove">
+                <i class="fa-solid fa-location-dot"></i>
+                <span
+                  >4th floor | We_Naari_Saree | Opp, Keshav Bagh Party Plot |
+                  Ranchi, India - 834001
+                </span>
+              </li>
+            </ul>
+
+            <ul class="addressInfo">
+              <li class="marginRemove">
+                <i class="fa-solid fa-phone"></i>
+                <span> India: +91 123456789 </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="secondBox">
+        <div class="containgApp">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="app"
+            ><i class="fa-brands fa-facebook-f fa-2x"></i
+          ></a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="app"
+            ><i class="fa-brands fa-twitter fa-2x"></i
+          ></a>
+
+          <a href="#" target="_blank" rel="noopener noreferrer" class="app"
+            ><i class="fa-brands fa-instagram fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <i class="fa-regular fa-copyright"></i> <span>2022 WeNari.com </span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

@@ -13,7 +13,8 @@ html{
 body{
 
     background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
-    
+
+    background-color: whitesmoke;
     background-repeat: no-repeat;
     background-size: cover;
     /* width: 100vw;
@@ -21,7 +22,7 @@ body{
 }
 #intro{
 
-    padding-top: 25px;
+    padding-top: 25px;  
     padding-bottom: 15px;
     /* margin-left: 0px; */
     /* margin-right: 0px; */
@@ -45,7 +46,9 @@ body{
 }
 .heading{
 
+    margin-bottom: 0px !important;
     font-size: 27px !important;
+    text-align: center;
 }
 .quote{
 
@@ -54,7 +57,7 @@ body{
 .d-block{
 
     width: inherit !important;
-    border: 4px solid rgb(0, 0, 0, 0.2);
+    border: 4px solid rgb(0, 0, 0, 0.1);
     border-radius: 15px !important;
 }
 @media screen and (min-width: 600px) {
@@ -144,10 +147,14 @@ body{
 }
 .col-md{
 
+    box-shadow: 2px 6px 8px 3px rgba(22, 22, 26, 0.18);
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     text-align: center;
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #f6faf5;
+    background-color: #a7ffeb;
 }
 .img-thumbnail{
 
@@ -168,4 +175,96 @@ body{
 
     font-size: 20px;
     padding-top: 12px;
+}
+.vision{
+
+    box-shadow: 0px 0px 200px 10px #8888;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 4px solid rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #a7ffeb;
+}
+.vision-wrapper{
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.college-staff{
+
+    margin-top: 100px;
+}
+.navbar{
+
+    background-color: rgb(0, 0, 0, 0.3);
+}
+.card {
+
+    background-color: #a7ffeb;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
+.carousel-inner {
+
+    padding: 1em;
+}
+
+@media screen and (min-width: 577px) {
+
+    .card-wrapper {
+
+        display: flex;
+    }
+    .card {
+
+        margin: 0px 20px 0px 20px;
+        width: calc(33.33%);
+    }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+
+    background-color: #aaaaaa;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.navigation{
+
+    background-color: rgb(0, 0, 0, 0.9);
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card-title {
+
+    text-align: center;
+}
+.card-body{
+
+    color: black;
+}
+.carousel-staffs{
+
+    width: 65%;
+}
+.image-wrapper{
+
+    height: 34vh;
+}
+.image-wrapper img{
+
+    width: 100%;
+    height: 100%;
 }
