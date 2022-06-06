@@ -209,14 +209,16 @@ body{
     border-radius: 10px;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
 }
+.carousel-staffs{
 
-.carousel-inner {
-
-    padding: 1em;
+    width: 70%;
 }
-
 @media screen and (min-width: 577px) {
-
+    
+    .carousel-inner {
+    
+        padding: 1em;
+    }
     .card-wrapper {
 
         display: flex;
@@ -225,6 +227,10 @@ body{
 
         margin: 0px 20px 0px 20px;
         width: calc(33.33%);
+    }
+    .carousel-staffs{
+
+        width: 65%;
     }
 }
 
@@ -254,10 +260,6 @@ body{
 .card-body{
 
     color: black;
-}
-.carousel-staffs{
-
-    width: 65%;
 }
 .image-wrapper{
 
