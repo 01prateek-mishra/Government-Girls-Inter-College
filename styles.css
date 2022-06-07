@@ -287,7 +287,19 @@ body{
 }
 .links{
 
+    text-decoration: none;
     font-size: 20px !important;
+    color: black;
+}
+.links-wrapper{
+
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+}
+.links-wrapper:hover{
+
+    background-color: #cbf0f8;
 }
 .quick-links{
 
