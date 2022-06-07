@@ -12,7 +12,7 @@ html{
 }
 body{
 
-    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png");
 
     background-color: whitesmoke;
     background-repeat: no-repeat;
@@ -59,6 +59,10 @@ body{
     width: inherit !important;
     border: 4px solid rgb(0, 0, 0, 0.1);
     border-radius: 15px !important;
+}
+.gov-wrapper{
+
+    width: 370px;
 }
 @media screen and (min-width: 600px) {
 
@@ -220,6 +224,7 @@ body{
     padding: 1em;
 }
 @media screen and (min-width: 577px) {
+
     
     .card-wrapper {
 
@@ -259,6 +264,12 @@ body{
 
     text-align: center;
 }
+.up{
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqsGLjUkXyCkeLmRGpsJrVrRaUXh8hUqODrw&usqp=CAU");
+}
 .card-body{
 
     color: black;
@@ -267,11 +278,19 @@ body{
 
     height: 34vh;
 }
-@media screen and (max-width: 577px){
+.dios{
     
+    height: 45vh;
+}
+@media screen and (max-width: 577px){
+
     .dios{
-        
+    
         height: 54vh;
+    }
+    .logo{
+        
+        height: 20vh;
     }
 }
 .image-wrapper img{
@@ -326,15 +345,19 @@ body{
 }
 .row{
 
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .gallery{
 
-    margin-top: 100px;
+    margin-top: 100px; 
     background-color: #a7ffeb;
 }
 #about-us{
 
     margin-top: 100px;
+}
+.government{
+
+    padding: 0px;
 }
