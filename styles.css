@@ -151,7 +151,7 @@ body{
     margin-top: 20px;
     margin-left: 5px;
     margin-right: 5px;
-    text-align: center;
+    /* text-align: center; */
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
     background-color: #a7ffeb;
@@ -169,7 +169,7 @@ body{
 .container{
 
     padding-top: 25px;
-    text-align: center;
+    /* text-align: center; */
 }
 .name{
 
@@ -193,7 +193,7 @@ body{
 
     margin-top: 100px;
     margin-bottom: 50px;
-    text-align: center;
+    /* text-align: center; */
 }
 .college-staff{
 
@@ -266,7 +266,13 @@ body{
 .image-wrapper{
 
     height: 34vh;
-    width: auto;
+}
+@media screen and (max-width: 577px){
+    
+    .dios{
+        
+        height: 54vh;
+    }
 }
 .image-wrapper img{
 
