@@ -287,17 +287,11 @@ body{
 }
 .links{
 
-    text-decoration: none;
     font-size: 20px !important;
-    color: black;
+    border-radius: 7px;
+    padding: 10px;
 }
-.links-wrapper{
-
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 2px;
-}
-.links-wrapper:hover{
+.links:hover{
 
     background-color: #cbf0f8;
 }
