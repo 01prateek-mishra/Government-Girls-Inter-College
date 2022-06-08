@@ -24,25 +24,27 @@ body{
 
     padding-top: 25px;  
     padding-bottom: 15px;
-    /* margin-left: 0px; */
-    /* margin-right: 0px; */
-    /* padding: 30px 5px 10px 5px; */
-    /* position: absolute;  */
-    /* top: 40%; */
-    /* left: 50%; */
-    /* display: flex; */
-    /* flex-direction: column; */
-
-    /* justify-items: center; */
-    /* align-items: center; */
     color: white;
     background-color: rgb(0, 0, 0, 0.3);
     border-radius: 0px 0px 15px 15px;
-    /* transform: translate(-50%, -50%); */
 }
 .welcome{
 
     font-size: 30px !important;
+    animation: text_reveal 0.5s ease forwards;
+    animation-delay: 1s;
+}
+#intro::after{
+    
+    content: "";
+}
+.welcome::after{
+
+}
+@keyframes text_reveal {
+	100% {
+		color: #91b1c1;
+	}
 }
 .heading{
 
