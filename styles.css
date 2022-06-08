@@ -171,7 +171,7 @@ body{
     /* text-align: center; */
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #7fc3eb;
+    background-color: #8ed490;
 }
 .img-thumbnail{
 
@@ -204,7 +204,7 @@ body{
     margin-right: 5px;
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #7fc3eb;
+    background-color: #fba85c;
 }
 .vision-wrapper{
 
@@ -223,7 +223,7 @@ body{
 }
 .card {
 
-    background-color: #7fc3eb;
+    background-color: #8ed490;
     color: white;
     border: none;
     border-radius: 10px;
@@ -236,6 +236,10 @@ body{
 .carousel-inner {
 
     padding: 1em;
+}
+.card-teacher{
+
+    background-color: #8ed490;
 }
 @media screen and (min-width: 577px) {
 
@@ -285,8 +289,9 @@ body{
     background-image: url("https://i.pinimg.com/originals/ff/5a/a9/ff5aa9f0387f70a6bf710caeb45ee699.jpg");
 }
 .card-body{
-
+ 
     color: white;
+    padding: 10px 0px 0px 0px;
 }
 .image-wrapper{
 
@@ -316,7 +321,7 @@ body{
 
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #7fc3eb;
+    background-color: #fba85c;
     margin-top: 100px;
 }
 .map{
@@ -332,11 +337,11 @@ body{
 }
 .links:hover{
 
-    background-color: #cbf0f8;
+    background-color: #fba85c;
 }
 .quick-links{
 
-    background-color: #7fc3eb;
+    background-color: #8ed490;
     margin-top: 100px;
 }
 .col-md{
@@ -346,6 +351,8 @@ body{
 }
 .gov{
 
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -366,7 +373,7 @@ body{
 .gallery{
 
     margin-top: 100px; 
-    background-color: #7fc3eb;
+    background-color: #fba85c;
 }
 #about-us{
 
