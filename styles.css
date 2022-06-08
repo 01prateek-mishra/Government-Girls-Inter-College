@@ -171,7 +171,7 @@ body{
     /* text-align: center; */
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #95bfd8;
+    background-color: #7fc3eb;
 }
 .img-thumbnail{
 
@@ -204,7 +204,7 @@ body{
     margin-right: 5px;
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #95bfd8;
+    background-color: #7fc3eb;
 }
 .vision-wrapper{
 
@@ -223,7 +223,7 @@ body{
 }
 .card {
 
-    background-color: #95bfd8;
+    background-color: #7fc3eb;
     color: white;
     border: none;
     border-radius: 10px;
@@ -316,7 +316,7 @@ body{
 
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #95bfd8;
+    background-color: #7fc3eb;
     margin-top: 100px;
 }
 .map{
@@ -336,7 +336,7 @@ body{
 }
 .quick-links{
 
-    background-color: #95bfd8;
+    background-color: #7fc3eb;
     margin-top: 100px;
 }
 .col-md{
@@ -366,7 +366,7 @@ body{
 .gallery{
 
     margin-top: 100px; 
-    background-color: #95bfd8;
+    background-color: #7fc3eb;
 }
 #about-us{
 
