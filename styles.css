@@ -393,10 +393,10 @@ body{
     position: relative;
     color: transparent;
     animation: text_reveal 1s ease forwards;
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 .welcome-span{
-
+    
     position: absolute;
     left: 0;
     top:0;
@@ -404,6 +404,7 @@ body{
     width: 0;
     background-color: white;
     animation: overlay 2s ease forwards;
+    animation-delay: 1s;
 }
 @keyframes overlay {
     
