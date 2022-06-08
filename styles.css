@@ -12,6 +12,7 @@ html{
 }
 body{
 
+    color: white;
     background-image: url("https://i.pinimg.com/originals/ff/5a/a9/ff5aa9f0387f70a6bf710caeb45ee699.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +45,7 @@ body{
 	}
 } */
 .heading{
-
+    
     margin-bottom: 0px !important;
     font-size: 27px !important;
     text-align: center;
@@ -170,7 +171,7 @@ body{
     /* text-align: center; */
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #f7d4c7;
+    background-color: #95bfd8;
 }
 .img-thumbnail{
 
@@ -203,7 +204,7 @@ body{
     margin-right: 5px;
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #f7d4c7;
+    background-color: #95bfd8;
 }
 .vision-wrapper{
 
@@ -222,8 +223,8 @@ body{
 }
 .card {
 
-    background-color: #f7d4c7;
-    color: #fff;
+    background-color: #95bfd8;
+    color: white;
     border: none;
     border-radius: 10px;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
@@ -285,7 +286,7 @@ body{
 }
 .card-body{
 
-    color: black;
+    color: white;
 }
 .image-wrapper{
 
@@ -315,7 +316,7 @@ body{
 
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #f7d4c7;
+    background-color: #95bfd8;
     margin-top: 100px;
 }
 .map{
@@ -335,7 +336,7 @@ body{
 }
 .quick-links{
 
-    background-color: #f7d4c7;
+    background-color: #95bfd8;
     margin-top: 100px;
 }
 .col-md{
@@ -365,7 +366,7 @@ body{
 .gallery{
 
     margin-top: 100px; 
-    background-color: #f7d4c7;
+    background-color: #95bfd8;
 }
 #about-us{
 
