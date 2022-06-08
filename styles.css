@@ -12,11 +12,11 @@ html{
 }
 body{
     
-    background-image: url("https://wallpapercave.com/wp/wp3400422.jpg");
-    object-fit: fill;
+    background-image: url("https://i.pinimg.com/originals/ff/5a/a9/ff5aa9f0387f70a6bf710caeb45ee699.jpg");
+    /* object-fit: fill; */
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     color: black;
     /* background-color: whitesmoke; */
 }
@@ -175,7 +175,10 @@ body{
     /* text-align: center; */
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #ffff;
+    background-color: #a1dca2;
+    color: transparent;
+    animation: text_reveal 2s ease forwards;
+    animation-delay: .5s;
 }
 .img-thumbnail{
 
@@ -208,7 +211,7 @@ body{
     margin-right: 5px;
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #ffff;
+    background-color: #fcbb77;
 }
 .vision-wrapper{
 
@@ -227,7 +230,7 @@ body{
 }
 .card {
 
-    background-color: #ffff;
+    background-color: #a1dca2;
     color: black;
     border: none;
     border-radius: 10px;
@@ -325,7 +328,7 @@ body{
 
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #ffff;
+    background-color: #a1dca2;
     margin-top: 100px;
 }
 .map{
@@ -345,7 +348,7 @@ body{
 }
 .quick-links{
 
-    background-color: #ffff;
+    background-color: #fcbb77;
     margin-top: 100px;
 }
 .col-md{
@@ -424,5 +427,24 @@ body{
     100%{
 
         color: black;
+    }
+}
+.animate-character {
+
+    background-image: linear-gradient(-225deg,
+            white 0%,
+            orange 29%,
+            white 67%,
+            green 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+
+    background-color: white'
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
     }
 }
