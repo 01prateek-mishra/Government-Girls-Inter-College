@@ -38,14 +38,14 @@ body{
     
     content: "";
 }
-.welcome::after{
+/* .welcome::after{
 
 }
 @keyframes text_reveal {
 	100% {
 		color: #91b1c1;
 	}
-}
+} */
 .heading{
 
     margin-bottom: 0px !important;
