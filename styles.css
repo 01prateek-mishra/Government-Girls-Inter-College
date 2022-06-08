@@ -173,7 +173,7 @@ body{
     /* text-align: center; */
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #8ed490;
+    background-color: #ffff;
 }
 .img-thumbnail{
 
@@ -206,7 +206,7 @@ body{
     margin-right: 5px;
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #fdbb77;
+    background-color: #ffff;
 }
 .vision-wrapper{
 
@@ -225,7 +225,7 @@ body{
 }
 .card {
 
-    background-color: #8ed490;
+    background-color: #ffff;
     color: black;
     border: none;
     border-radius: 10px;
@@ -241,7 +241,7 @@ body{
 }
 .card-teacher{
 
-    background-color: #8ed490;
+    background-color: #ffff;
 }
 @media screen and (min-width: 577px) {
 
@@ -323,7 +323,7 @@ body{
 
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #fdbb77;
+    background-color: #ffff;
     margin-top: 100px;
 }
 .map{
@@ -339,11 +339,11 @@ body{
 }
 .links:hover{
 
-    background-color: #fdbb77;
+    background-color: #ffff;
 }
 .quick-links{
 
-    background-color: #8ed490;
+    background-color: #ffff;
     margin-top: 100px;
 }
 .col-md{
@@ -375,7 +375,7 @@ body{
 .gallery{
 
     margin-top: 100px; 
-    background-color: #fdbb77;
+    background-color: #ffff;
 }
 #about-us{
 
