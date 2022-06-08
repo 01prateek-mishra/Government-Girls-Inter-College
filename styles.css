@@ -56,6 +56,8 @@ body{
 }
 .quote{
 
+    margin-bottom: 0px;
+    display: inline-block;
     font-size: 18px !important;
     font-family: "Poppins";
     opacity: 0;
