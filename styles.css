@@ -328,7 +328,7 @@ body{
 
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #a1dca2;
+    background-color: #fcbb77;
     margin-top: 100px;
 }
 .map{
@@ -341,6 +341,7 @@ body{
     font-size: 20px !important;
     border-radius: 7px;
     padding: 10px;
+    box-shadow: 10px 6px 8px 0px rgba(22, 22, 26, 0.18);
 }
 .links:hover{
 
@@ -348,7 +349,7 @@ body{
 }
 .quick-links{
 
-    background-color: #fcbb77;
+    background-color: #a1dca2;
     margin-top: 100px;
 }
 .col-md{
@@ -380,7 +381,7 @@ body{
 .gallery{
 
     margin-top: 100px; 
-    background-color: #ffff;
+    background-color: #fcbb77;
 }
 #about-us{
 
