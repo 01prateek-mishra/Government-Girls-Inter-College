@@ -22,6 +22,8 @@ body{
 }
 #intro{
 
+    padding-left: 0px;
+    padding-right: 0px;
     /* padding-top: 25px;   */
     padding-bottom: 20px;
     color: black;
@@ -384,4 +386,42 @@ body{
 .government{
 
     margin-top: 100px;
+}
+.welcome{
+    
+    display: inline-block;
+    position: relative;
+    color: transparent;
+    animation: text_reveal 1s ease forwards;
+    animation-delay: 1s;
+}
+.welcome-span{
+
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 0;
+    background-color: white;
+    animation: overlay 2s ease forwards;
+}
+@keyframes overlay {
+    
+    50%{
+
+        width: 100%;
+        left: 0;       
+    }
+    100%{
+
+        width: 0;
+        left: 100%;
+    }
+}
+@keyframes text_reveal {
+    
+    100%{
+
+        color: black;
+    }
 }
