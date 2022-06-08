@@ -5,17 +5,19 @@
     font-family: "Poppins";
 }
 html{
-
+    
     scroll-behavior: smooth;
     height: 100%;
     width: 100%;
 }
 body{
-
-    color: white;
+    
     background-image: url("https://i.pinimg.com/originals/ff/5a/a9/ff5aa9f0387f70a6bf710caeb45ee699.jpg");
-    background-repeat: no-repeat;
+    object-fit: fill;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
     /* background-color: whitesmoke; */
 }
 #intro{
@@ -204,7 +206,7 @@ body{
     margin-right: 5px;
     border: 4px solid rgb(0, 0, 0, 0.2);
     border-radius: 10px;
-    background-color: #fba85c;
+    background-color: #fdbb77;
 }
 .vision-wrapper{
 
@@ -224,7 +226,7 @@ body{
 .card {
 
     background-color: #8ed490;
-    color: white;
+    color: black;
     border: none;
     border-radius: 10px;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
@@ -290,7 +292,7 @@ body{
 }
 .card-body{
  
-    color: white;
+    color: black;
     padding: 10px 0px 0px 0px;
 }
 .image-wrapper{
@@ -321,7 +323,7 @@ body{
 
     padding-top: 10px;
     padding-bottom: 50px;
-    background-color: #fba85c;
+    background-color: #fdbb77;
     margin-top: 100px;
 }
 .map{
@@ -337,7 +339,7 @@ body{
 }
 .links:hover{
 
-    background-color: #fba85c;
+    background-color: #fdbb77;
 }
 .quick-links{
 
@@ -373,7 +375,7 @@ body{
 .gallery{
 
     margin-top: 100px; 
-    background-color: #fba85c;
+    background-color: #fdbb77;
 }
 #about-us{
 
