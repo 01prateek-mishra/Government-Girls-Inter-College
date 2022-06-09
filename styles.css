@@ -476,7 +476,7 @@ body{
     position: relative;
     color: transparent;
     animation: text_reveal 2s ease forwards;
-    animation-delay: 1s;
+    animation-delay: 0.6s;
 }
 /* .text-reveal-span{
     
