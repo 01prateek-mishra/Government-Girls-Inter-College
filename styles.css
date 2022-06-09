@@ -170,7 +170,7 @@ body{
 
         font-size: 20px !important;
     }
-    .container{
+    .container-small{
 
         width: 600px;
     }
@@ -193,7 +193,7 @@ body{
 
         font-size: 22px !important;
     }
-    .container{
+    .container-small{
 
         width: 660px;
     }
@@ -216,13 +216,13 @@ body{
 
         font-size: 25px !important;
     }
-    .container{
+    .container-small{
 
         width: 720px;
     }
     .gov{
 
-        width: 230px;
+        width: 200px;
     }
 }
 .carousel-inner img {
