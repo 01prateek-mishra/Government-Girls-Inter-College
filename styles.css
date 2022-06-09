@@ -478,7 +478,7 @@ body{
     animation: text_reveal 1s ease forwards;
     animation-delay: 2s;
 }
-.welcome-span{
+.text-reveal-span{
     
     position: absolute;
     left: 0;
