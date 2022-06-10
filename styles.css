@@ -234,6 +234,7 @@ body{
 .navbar{
 
     font-family: "Poppins";
+    /* background-color: #fcbb77; */
 }
 .navbar-nav > li{
     
@@ -489,6 +490,12 @@ body{
     animation: overlay 2s ease forwards;
     animation-delay: 1s;
 } */
+.scrolling-active{
+
+    transition: .5s ease;
+    background-color: #fcbb77;
+    box-shadow: 0 10px 1rem rgba(0, 0, 0, .1);
+}
 @keyframes overlay {
     
     50%{
