@@ -334,8 +334,8 @@ body{
 }
 .card-links > .card-header{
 
-    /* border-top: 8px solid #a1dca2; */
-    background-color: #a1dca2;
+    border-top: 8px solid #a1dca2;
+    /* background-color: #a1dca2; */
     font-size: 20px;
 }
 .carousel-staffs{
