@@ -551,3 +551,16 @@ body{
         filter: blur(0);
     }
 }
+.swacch-bharat{
+
+    padding-top: 30px;
+    padding-left: 40px;
+}
+@media screen and (min-width: 1000px) {
+    
+    .swacch-bharat{
+    
+        width: 60%;
+        padding-left: 200px;
+    }
+}
