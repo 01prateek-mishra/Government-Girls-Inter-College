@@ -2,7 +2,7 @@ let nav = document.querySelector('nav');
 
 document.addEventListener('scroll', toggle_bg);
 
-function toggle_bg(){
+function toggle_bg() {
 
     nav.classList.toggle('scrolling-active', window.scrollY > 0);
 }
@@ -13,3 +13,21 @@ function toggle_bg(){
 //     l.addEventListener('click', () => { bsCollapse.toggle() })
 // })
 // window.addEventListener("hashchange", function() { scrollBy(0, -50) });
+
+const observer = new IntersectionObserver((entries) => {
+
+    entries.forEach((entry) => {
+
+        if (entry.isIntersecting) {
+
+            entry.target.classList.add('show');
+        }
+        else {
+
+            entry.target.classList.remove('show');
+        }
+    })
+})
+const hiddenElements = document.querySelectorAll('.hidden');
+
+hiddenElements.forEach((el) => observer.observe(el));
