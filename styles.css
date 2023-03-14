@@ -610,9 +610,15 @@ body {
 .scrolling-active {
 
     transition: .5s ease;
-    background-color: #fcbb77;
     box-shadow: 0 10px 1rem rgba(0, 0, 0, .1);
+    background-color: #fcbb77;
 }
+
+/* #events {
+
+    display: flex;
+} */
+
 
 @keyframes overlay {
 
